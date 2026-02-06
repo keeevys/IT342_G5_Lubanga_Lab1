@@ -1,0 +1,9 @@
+1️⃣ Backend – Spring Boot
+    TODO
+    
+2️⃣ Web Application – ReactJS
+    IN-PROGRESS
+
+3️⃣ Documentation Update (FRS – Partial)
+    IN-PROGRESS
+
