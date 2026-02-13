@@ -1,9 +1,18 @@
 1️⃣ Backend – Spring Boot
-    TODO
+    DONE
     
 2️⃣ Web Application – ReactJS
-    IN-PROGRESS
+    DONE
 
 3️⃣ Documentation Update (FRS – Partial)
+    DONE
+
+//////////////////////////////////////////
+1️⃣ Mobile Application – Android Kotlin
     IN-PROGRESS
 
+2️⃣ Backend Finalization
+    TO-DO
+
+3️⃣ Final Documentation (FRS – Complete)
+    in-PROGRESS
