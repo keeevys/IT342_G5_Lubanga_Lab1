@@ -14,7 +14,7 @@
 }
 
 .auth-card {
-  background: white;
+  background: #E0F7FF;
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 15px 35px rgba(108, 52, 131, 0.3);
@@ -46,18 +46,18 @@
 .form-group input {
   width: 100%;
   padding: 12px;
-  border: 2px solid #d7bde2;
+  border: 2px solid #87CEEB;
   border-radius: 8px;
   font-size: 16px;
   transition: all 0.3s;
-  background-color: #faf5ff;
+  background-color: #E0F7FF;
 }
 
 .form-group input:focus {
   outline: none;
-  border-color: #9b59b6;
-  background-color: white;
-  box-shadow: 0 0 0 3px rgba(155, 89, 182, 0.1);
+  border-color: #5DADE2;
+  background-color: #F0F8FF;
+  box-shadow: 0 0 0 3px rgba(135, 206, 235, 0.2);
 }
 
 .auth-button {
