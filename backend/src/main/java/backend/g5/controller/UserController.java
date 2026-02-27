@@ -33,4 +33,21 @@ public class UserController {
         
         return ResponseEntity.ok(userResponse);
     }
+    
+    @GetMapping("/profile")
+    public ResponseEntity<?> getUserProfile() {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String email = authentication.getName();
+        
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+        
+        UserResponse userResponse = new UserResponse(
+                user.getUserId(),
+                user.getFullName(),
+                user.getEmail()
+        );
+        
+        return ResponseEntity.ok(userResponse);
+    }
 }

@@ -6,13 +6,13 @@
         <server>
             <host>localhost</host>
             <port>3306</port>
-            <database>dentalbook_db</database>
+            <database>dbit342_g5_lubanga</database>
         </server>
         
         <!-- Database Credentials -->
         <credentials>
             <username>root</username>
-            <password>password</password>
+            <password>123456</password>
         </credentials>
         
         <!-- Connection Pool Settings -->
@@ -25,7 +25,7 @@
         <!-- JDBC Configuration -->
         <jdbc>
             <driver>com.mysql.cj.jdbc.Driver</driver>
-            <url>jdbc:mysql://localhost:3306/dentalbook_db?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true</url>
+            <url>jdbc:mysql://localhost:3306/dbit342_g5_lubanga?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true</url>
         </jdbc>
     </mysql>
     
